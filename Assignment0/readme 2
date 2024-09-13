@@ -1,0 +1,24 @@
+To optimize the code i used multithreading and SIMD avx instructions so that code can used the architecture level parallelism .
+AVX instructions perform any operation on  8/4 integer/floating point variable parallel. Number of integer variable or floating point variable in vector depends on the type of instructions.
+Given expression is A=BC+BD .
+In the code expression is breakdown like this A= B(C+D) so that multiplication can performed only once not twice and it also include the optimization because multiplication is expensive then addition
+First , perform the addition and store in f matrix using avx instructions.
+Then perform the multiplication of f and b matrix and store in a matrix .
+Due to parallel intruction in code , code execution time significantly improved compare to the naive version of the code.
+Naive version of code executes in 40sec
+Optimize version of code executes in 1.805sec  
+
+References-https://www.codeproject.com/Articles/874396/Crunching-Numbers-with-AVX-and-AVX 
+	   
+
+Compile instruction- gcc -mavx2 -o [executable/binary filename] [original FileName]
+ example - gcc -mavx2 -o e ex.c
+
+To run - ./[executable filename]
+          ./e
+
+
+
+
+
+

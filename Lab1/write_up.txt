@@ -1,0 +1,6 @@
+To compile the file use -- gcc filename.c -o a
+To Run the file use -- ./a
+
+Testcase file open in clientside u can modify by giving different file path
+Output file also on the client side 
+Client read the each line from test case file and send the request to server and server response back according to availability then client write on the output file.
