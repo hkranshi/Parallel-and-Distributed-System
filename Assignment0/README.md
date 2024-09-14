@@ -5,3 +5,5 @@ Submission Guidelines:
  You must submit a write-up briefly explaining your optimization approach. Mention all the references used. 
  All compilation instructions must be given in a readme file. Also, include a compiled binary with your source code.
 
+ Solution: I have used AVX Instructions and blocking concept
+
