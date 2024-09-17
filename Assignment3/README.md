@@ -1,4 +1,4 @@
- # Assignment 3: MPI client(s) programming
+ # Tennis Court Manager: A Multi-Client Tennis Scheduling and Game Simulation System
 Due March 1, 2024 11:59 PM
 Instructions
 Extend your solution for Assignment 2 to perform the following:
